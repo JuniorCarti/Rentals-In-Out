@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EldoretRentMoves | Track Rental Movements</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fas fa-home"></i>
+        <span>EldoretRentMoves</span>
+      </div>
+      
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Listings</a>
+        <a href="#">Map</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div class="auth-buttons">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Track Rental Movements Across Eldoret</h1>
+      <p>See who's moving in/out, compare prices, and find your perfect home in Kenya's fastest growing city.</p>
+      
+      <div class="search-bar">
+        <div class="search-tabs">
+          <button class="active">Rent</button>
+          <button>Moving Out</button>
+          <button>Neighborhoods</button>
+        </div>
+        
+        <div class="search-fields">
+          <input type="text" placeholder="Langas, Kapseret, Huruma...">
+          <select>
+            <option>Any Price</option>
+            <option>Under KSh 10,000</option>
+            <option>KSh 10,000 - 20,000</option>
+            <option>KSh 20,000 - 30,000</option>
+            <option>Over KSh 30,000</option>
+          </select>
+          <button class="search-button">
+            <i class="fas fa-search"></i> Search
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" alt="Eldoret properties">
+    </div>
+  </section>
+
+  <!-- Listings Section -->
+  <section class="listings-section">
+    <div class="section-header">
+      <h2>Moving Out Soon</h2>
+      <a href="#" class="view-all">
+        View All <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+    
+    <div class="property-grid">
+      <!-- Property Card 1 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="3-bedroom in Langas">
+          <div class="badges">
+            <span class="badge moving">MOVING OUT DEC 15</span>
+            <span class="badge verified">VERIFIED</span>
+          </div>
+          <button class="save-btn">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+        
+        <div class="card-content">
+          <h3>3-Bedroom Apartment | Langas</h3>
+          <div class="price">KSh 18,000 <span>/month</span></div>
+          
+          <div class="meta">
+            <span><i class="fas fa-bed"></i> 3</span>
+            <span><i class="fas fa-bath"></i> 2</span>
+            <span><i class="fas fa-ruler-combined"></i> 1,200 sqft</span>
+          </div>
+          
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> 4.2km from CBD • Near Eldoret Hospital
+          </div>
+          
+          <div class="card-actions">
+            <button class="primary-btn">Contact Tenant</button>
+            <button class="secondary-btn">Details</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Property Card 2 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="2-bedroom in Kapseret">
+          <div class="badges">
+            <span class="badge moving">MOVING OUT NOV 30</span>
+          </div>
+          <button class="save-btn">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+        
+        <div class="card-content">
+          <h3>2-Bedroom House | Kapseret</h3>
+          <div class="price">KSh 12,500 <span>/month</span></div>
+          
+          <div class="meta">
+            <span><i class="fas fa-bed"></i> 2</span>
+            <span><i class="fas fa-bath"></i> 1</span>
+            <span><i class="fas fa-ruler-combined"></i> 800 sqft</span>
+          </div>
+          
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> 6.1km from CBD • Near Eldoret Polytechnic
+          </div>
+          
+          <div class="card-actions">
+            <button class="primary-btn">Contact Tenant</button>
+            <button class="secondary-btn">Details</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Property Card 3 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1680&q=80" alt="1-bedroom in Huruma">
+          <div class="badges">
+            <span class="badge moving">MOVING OUT JAN 5</span>
+            <span class="badge verified">VERIFIED</span>
+          </div>
+          <button class="save-btn">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+        
+        <div class="card-content">
+          <h3>1-Bedroom Apartment | Huruma</h3>
+          <div class="price">KSh 8,000 <span>/month</span></div>
+          
+          <div class="meta">
+            <span><i class="fas fa-bed"></i> 1</span>
+            <span><i class="fas fa-bath"></i> 1</span>
+            <span><i class="fas fa-ruler-combined"></i> 500 sqft</span>
+          </div>
+          
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> 3.5km from CBD • Near Huruma Market
+          </div>
+          
+          <div class="card-actions">
+            <button class="primary-btn">Contact Tenant</button>
+            <button class="secondary-btn">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Listings Section -->
+  <section class="listings-section">
+    <div class="section-header">
+      <h2>New Listings</h2>
+      <a href="#" class="view-all">
+        View All <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+    
+    <div class="property-grid">
+      <!-- Property Card 4 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="4-bedroom in Pioneer">
+          <div class="badges">
+            <span class="badge verified">VERIFIED</span>
+          </div>
+          <button class="save-btn">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+        
+        <div class="card-content">
+          <h3>4-Bedroom Villa | Pioneer</h3>
+          <div class="price">KSh 35,000 <span>/month</span></div>
+          
+          <div class="meta">
+            <span><i class="fas fa-bed"></i> 4</span>
+            <span><i class="fas fa-bath"></i> 3</span>
+            <span><i class="fas fa-ruler-combined"></i> 2,400 sqft</span>
+          </div>
+          
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> 5.8km from CBD • Gated Community
+          </div>
+          
+          <div class="card-actions">
+            <button class="primary-btn">Contact Owner</button>
+            <button class="secondary-btn">Details</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Property Card 5 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Studio in Town">
+          <div class="badges">
+            <span class="badge verified">VERIFIED</span>
+          </div>
+          <button class="save-btn">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+        
+        <div class="card-content">
+          <h3>Studio Apartment | CBD</h3>
+          <div class="price">KSh 15,000 <span>/month</span></div>
+          
+          <div class="meta">
+            <span><i class="fas fa-bed"></i> 1</span>
+            <span><i class="fas fa-bath"></i> 1</span>
+            <span><i class="fas fa-ruler-combined"></i> 400 sqft</span>
+          </div>
+          
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> 0.5km from CBD • Near Zion Mall
+          </div>
+          
+          <div class="card-actions">
+            <button class="primary-btn">Contact Owner</button>
+            <button class="secondary-btn">Details</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Property Card 6 -->
+      <div class="property-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="2-bedroom in Kimumu">
+          <button class="save-btn">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+        
+        <div class="card-content">
+          <h3>2-Bedroom Bungalow | Kimumu</h3>
+          <div class="price">KSh 22,000 <span>/month</span></div>
+          
+          <div class="meta">
+            <span><i class="fas fa-bed"></i> 2</span>
+            <span><i class="fas fa-bath"></i> 2</span>
+            <span><i class="fas fa-ruler-combined"></i> 1,000 sqft</span>
+          </div>
+          
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> 7.3km from CBD • Quiet Neighborhood
+          </div>
+          
+          <div class="card-actions">
+            <button class="primary-btn">Contact Owner</button>
+            <button class="secondary-btn">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="section-header">
+      <h2>Explore Eldoret Rentals</h2>
+      <a href="#" class="view-all">
+        View Full Map <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+    
+    <div class="map-container">
+      <img src="https://maps.googleapis.com/maps/api/staticmap?center=0.5143,35.2698&zoom=13&size=1200x500&scale=2&maptype=roadmap&markers=color:red%7C0.5143,35.2698&key=YOUR_API_KEY" alt="Eldoret Map">
+      <div class="map-controls">
+        <button class="map-filter active">All</button>
+        <button class="map-filter">Moving Out</button>
+        <button class="map-filter">New Listings</button>
+        <button class="map-filter">Under KSh 15K</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Use EldoretRentMoves?</h2>
+    <p>Our platform helps you make informed decisions about rentals in Eldoret with real-time data and verified listings.</p>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-bell"></i>
+        </div>
+        <h3>Real-time Alerts</h3>
+        <p>Get instant notifications when properties become available in your preferred areas.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-map-marked-alt"></i>
+        </div>
+        <h3>Interactive Maps</h3>
+        <p>View all available rentals on our map with distance markers from key locations.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>Verified Listings</h3>
+        <p>All our listings go through a verification process to ensure authenticity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-about">
+        <div class="footer-logo">
+          <i class="fas fa-home"></i>
+          <span>EldoretRentMoves</span>
+        </div>
+        <p>Kenya's premier platform for tracking rental movements in Eldoret. Find your perfect home with ease.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Listings</a></li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Neighborhoods</h3>
+        <ul>
+          <li><a href="#">Langas</a></li>
+          <li><a href="#">Huruma</a></li>
+          <li><a href="#">Kapseret</a></li>
+          <li><a href="#">Pioneer</a></li>
+          <li><a href="#">Kimumu</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Help Center</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      &copy; 2023 EldoretRentMoves. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // Simple interactive elements
+    document.addEventListener('DOMContentLoaded', function() {
+      // Tab switching
+      const tabs = document.querySelectorAll('.search-tabs button');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+        });
+      });
+      
+      // Map filter switching
+      const mapFilters = document.querySelectorAll('.map-filter');
+      mapFilters.forEach(filter => {
+        filter.addEventListener('click', () => {
+          mapFilters.forEach(f => f.classList.remove('active'));
+          filter.classList.add('active');
+        });
+      });
+      
+      // Save property button
+      const saveButtons = document.querySelectorAll('.save-btn');
+      saveButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const icon = this.querySelector('i');
+          if (icon.classList.contains('far')) {
+            icon.classList.remove('far');
+            icon.classList.add('fas');
+            this.style.color = '#ff4757';
+          } else {
+            icon.classList.remove('fas');
+            icon.classList.add('far');
+            this.style.color = '';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html
